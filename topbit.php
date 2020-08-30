@@ -5,7 +5,7 @@
 <?php
     
     session_start(); // to allow variable transfer between pages...
-    include("config.php")
+    include("config.php");
         
     // Connect to database...
     $dbconnect=mysqli_connect(DB_HOST,DB_USERNAME,DB_PASSWORD,DB_NAME);
