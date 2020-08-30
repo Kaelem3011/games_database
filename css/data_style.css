@@ -101,7 +101,7 @@ h1, h2, h3, h4 {
 
 .sub_heading {
     font-family: 'Ubuntu', sans-serif;
-    color: #593849;
+    color: #264306;
     font-weight: bold;
 }
 
@@ -109,9 +109,9 @@ h1, h2, h3, h4 {
 
 /* links in page */
 
-a:link{color: #d6d3d7;}
-a:visited{color: #ccc;}
-a:hover{color: #dfcfbc;}
+a:link{color: #264306;}
+a:visited{color: #264306;}
+a:hover{color: #8F5F14;}
 
 /* side links */
 a.side {
@@ -120,7 +120,7 @@ a.side {
     text-decoration: none;
 }
 a.side:link, a.side:visited {color: #636263;}
-a.side:hover {color:#8a1737; }
+a.side:hover {color:#264306; }
 
 
 /**** Results ****/
@@ -128,8 +128,9 @@ a.side:hover {color:#8a1737; }
 .results {
     background-color: #f4ebe1;
     border-radius: 10px;
-    border: 1px solid #000;
+    border: 2px solid #000;
     padding: 5px;
+    margin-bottom: 10px;
 }
 
 
