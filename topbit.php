@@ -48,3 +48,4 @@
         
         <div class="box banner">
             <h1>Games Database</h1>        
+        </div>
