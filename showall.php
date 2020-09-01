@@ -45,13 +45,48 @@
                     
                     <div>
                     
-                <span class="sub_heading">
-                    <a href="<?php echo $find_rs['URL']; ?>">
-                    <?php echo $find_rs['Name']; ?>
-                    </a>
-                </span> 
+                        <span class="sub_heading">
+                            <a href="<?php echo $find_rs['URL']; ?>">
+                                <?php echo $find_rs['Name']; ?>
+                            </a>
+                        </span> 
                 
-                    </div>        
+                    </div> <!-- Title -->        
+                
+                    <?php
+                        if($find_rs['Subtitle'] != "") 
+                        
+                        {
+                                
+                        ?>        
+                         
+                    <div>
+                    
+                        &nbsp; &nbsp; | &nbsp; &nbsp;
+                        
+                        <?php echo $find_rs[''] ?>    
+                        
+                        
+                    
+                    </div> <!-- Subtitle -->
+                    
+                    
+                    
+                    
+                    
+                    
+                        }
+                    
+                    <?php
+                            
+                        }
+                            
+                    ?>
+                    
+                    
+                
+                
+                
                 
                 </div>    
                     
