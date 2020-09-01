@@ -38,11 +38,24 @@
                     
             <!-- results go here -->
             <div class="results">
+                
+                <!-- Heading and subtitle -->
+                
+                <div class="flex-container">
+                    
+                    <div>
+                    
                 <span class="sub_heading">
                     <a href="<?php echo $find_rs['URL']; ?>">
                     <?php echo $find_rs['Name']; ?>
                     </a>
-                </span> - <?php echo $find_rs['Subtite'] ?>
+                </span> 
+                
+                    </div>        
+                
+                </div>    
+                    
+                <!-- / Heading and subtitle -->
                 
                 <p>    
                     <b>Genre</b>:
