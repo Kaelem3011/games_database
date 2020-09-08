@@ -84,11 +84,13 @@
                     <!-- Partial Stars Origanal Source:
                     https://codepen.io/Bluetidepro/pen/GkpEA -->
                     <div class="star-ratings-sprite">
+                        <span style="width:<?php echo $find_rs['User Rating'] / 5 * 100?>%" class="star-ratings-sprite-rating"></span>
                     
                     </div> <!-- / star rating div -->
                     
                     <div class="actual-rating">
-                        (<?php echo $find_rs ['User Rating'] ?> based on # ratings)
+                        (<?php echo $find_rs ['User Rating'] ?> based on 
+                        <?php echo number_format($find_rs['Rating Count']) ?> ratings)
                     
                     </div> <!-- / text rating div -->
                 
@@ -131,27 +133,20 @@
                 ?>
                 
                 <p>    
-                    <b>Genre</b>:
-                    <?php echo $find_rs['Genre'] ?>
-
-                    <br />
-
-                    <b>Developer</b>:
-                    <?php echo $find_rs['DevName'] ?>
-
-                    <br />
+                    <!-- Developer, Genre and Age... -->
+                    <b>Developer:</b> <?php echo $find_rs['DevName'] ?><br />
+                    <b>Genre:</b> <?php echo $find_rs['Genre'] ?><br />
+                    Suitable for ages <b><?php echo $find_rs['Age'] ?></b> and up
                     
-                    <b>Rating</b>: <?php echo $find_rs['User Rating']
-                    ?> (based on <?php echo $find_rs['Rating Count'] ?> votes)
-
                 </p>
                 
-                <hr />
-                    
-                <b>Description </b><?php echo $find_rs['Description'] ?>
+                <p>
+                    <i>Description goes here...</i>
+                </p>
             
             </div> <!-- results --> 
-                   
+                 
+            <br />
             
             <?php
                     
