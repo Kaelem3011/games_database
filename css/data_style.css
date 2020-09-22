@@ -200,7 +200,7 @@ input[type="submit"]:hover {
     background-color: #000;
 }
 
-input.search[type-=text], select {
+input.search[type=text], select {
     width: 200px;
 }
 
