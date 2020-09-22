@@ -68,24 +68,19 @@
                     <!-- Partial Stars Origanal Source:
                     https://codepen.io/Bluetidepro/pen/GkpEA -->
                     <div class="star-ratings-sprite">
-                        <span style="width:<?php echo $find_rs['User Rating'] / 5 * 100?>%" class="star-ratings-sprite-rating"></span>
+                        <span style="width:<?php echo $find_rs['User Rating'] / 5 * 100; ?>%" class="star-ratings-sprite-rating"></span>
                     
                     </div> <!-- / star rating div -->
                     
                     <div class="actual-rating">
-                        (<?php echo $find_rs ['User Rating'] ?> based on 
-                        <?php echo number_format($find_rs['Rating Count']) ?> ratings)
+                        (<?php echo $find_rs ['User Rating']; ?> based on 
+                        <?php echo number_format($find_rs['Rating Count']); ?> ratings)
+                        
+                    </div>  <!-- / actual rating div -->
                     
-                    </div> <!-- / text rating div -->
-                
-                </div> <!-- / ratings flexbox -->
-                
-                <!-- / Ratings Area -->
-                
-                <!-- Price -->
-                
-                <?php
+                </div>  <!-- rating flex box -->
                     
+                    <?php
                     if($find_rs['Price'] == 0)  {
                         ?>
                     <p>Free! 
@@ -108,7 +103,7 @@
                     else {
                     
                         ?>
-                    <b>Price:</b> $<?php echo $find_rs['Price'] ?>
+                    <b>Price:</b> $<?php echo $find_rs['Price']; ?>
                         
                     <?php
             
@@ -122,11 +117,11 @@
                     <b>Genre:</b> <?php echo $find_rs['Genre'] ?><br />
                     Suitable for ages <b><?php echo $find_rs['Age'] ?></b> and up
                     
-                </p>
-                
                 <p>
                     <i><?php echo $find_rs['Description'] ?></i>
                 </p>
+                        
+                    
             
             </div> <!-- results --> 
                  

@@ -14,7 +14,14 @@
                
             </form>
 
-            
+            <form class="searchform" method="post" action="free.php"
+            enctype="multipart/form-data">
+     
+                <input class="submit free" type="submit" name="free"
+                value="Free with NO IN APP PURCHACE &nbsp; &#xf002;" />
+     
+            </form>
+     
         </div> <!-- / side bar -->
         
         <div class="box footer">
