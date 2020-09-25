@@ -13,15 +13,31 @@
                 name="find_dev_name" value="&#xf002;" />
                
             </form>
-
-            <form class="searchform" method="post" action="free.php"
+     
+            <br />
+            <hr />
+            <br />
+            
+            <div class="advanced-frame">
+     
+            <h2>Advanced Search</h2>
+            
+            <form class="searchform" method="post" action="advanced.php"
             enctype="multipart/form-data">
      
-                <input class="submit free" type="submit" name="free"
-                value="Free with NO IN APP PURCHACE &nbsp; &#xf002;" />
+            <input class="adv" type="text" name="app"        
+                
+            
+                
+                
+                
+            <input class="submit advanced-button" type="submit" name="advanced"
+            value="Search &nbsp; &#xf002;" />
      
             </form>
      
+            </div>    
+                
         </div> <!-- / side bar -->
         
         <div class="box footer">
